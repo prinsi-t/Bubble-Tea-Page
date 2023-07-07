@@ -1,0 +1,104 @@
+body{
+    background-image: url("../img/Screenshot\ \(102\).png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+header{
+    background-color: rgba(209, 211, 212, 0.4);
+    width: 30%;
+    margin-left: 32em;
+    margin-top: 8em;
+}
+
+header form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: -3em;
+}
+
+
+header input,button,textarea{
+    margin-top: 1em;
+    margin-left: 5em;
+    font-size: 18px;
+    color: rgb(148, 144, 144);
+    border: none;
+    padding: 10px 5px;
+
+}
+
+header form input:focus , textarea:focus{
+    outline: 2px solid rgb(234, 150, 46);
+}
+
+h1{
+    font-size: 45px;
+    margin-left: 1.5em;
+    color: white;
+}
+
+header button{
+    margin-bottom: 2em;
+    margin-left: 8em;
+    width: 50%;
+    padding: 5px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(151, 38, 19);
+    color: white;
+    font-weight: bolder;
+}
+
+header button:hover{
+    background-color: rgba(175, 156, 140, 0.3);
+    color: white;
+    border: 1px solid white;
+}
+
+@media all and (max-width: 600px){
+
+    header{
+        float: left;
+        width: 85%;
+        height: 500px;
+        margin: 10em 0 3em 2em;
+        margin-right: 0;
+    }
+
+    header form{
+        height: 1000px;
+    }
+    
+    h1{
+        margin-left: 1em;
+        
+    }
+
+    button{
+        margin-top: 1em;
+
+    }
+    header button:hover{
+        background-color: rgba(175, 156, 140, 0.3);
+        color: white;
+        border: 1px solid white;
+    }
+
+    html{
+        margin: 0;
+        margin-right: 0;
+    }
+
+    body{
+        background-size: cover;
+        background-position: center center;
+        background-attachment: fixed;
+        margin: 0;
+        margin-right: 0;
+        
+     }
+ 
+    } 
+   
